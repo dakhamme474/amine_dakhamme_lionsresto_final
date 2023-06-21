@@ -12024,5 +12024,113 @@ header {
     font-weight: bold;
   }
 }
+.boss {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.les-tabs {
+  border-bottom: 2px solid #9f9592;
+}
+.les-tabs button {
+  font-size: 25px;
+}
+
+.all-listes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.photo-tajine img {
+  width: 325px;
+}
+.photo-tajine h3, .photo-tajine .h3 {
+  margin-top: 20px;
+}
+.photo-tajine p {
+  color: #42525f;
+  text-align: center;
+}
+.photo-tajine h4, .photo-tajine .h4 {
+  color: #cd1212;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 767px) and (max-width: 1025px) {
+  .boss {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .les-tabs {
+    border-bottom: 2px solid #9f9592;
+  }
+  .les-tabs button {
+    font-size: 18px;
+  }
+  .all-listes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .photo-tajine img {
+    width: 500px;
+  }
+  .photo-tajine h3, .photo-tajine .h3 {
+    margin-top: 20px;
+  }
+  .photo-tajine p {
+    color: #42525f;
+    text-align: center;
+  }
+  .photo-tajine h4, .photo-tajine .h4 {
+    color: #cd1212;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+@media (min-width: 375px) and (max-width: 426px) {
+  .boss {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .les-tabs {
+    border-bottom: 2px solid #9f9592;
+  }
+  .les-tabs button {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .all-listes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .photo-tajine img {
+    width: 320px;
+  }
+  .photo-tajine h3, .photo-tajine .h3 {
+    margin-top: 20px;
+  }
+  .photo-tajine p {
+    color: #42525f;
+    text-align: center;
+  }
+  .photo-tajine h4, .photo-tajine .h4 {
+    color: #cd1212;
+    font-weight: bold;
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
