@@ -19,6 +19,7 @@
     margin: 15px 50px;
     img{
         width: 850px;
+        height: 742px;
         
         
     }
@@ -29,7 +30,8 @@
     width: 600px;
     height: 140px;
     top: 70%;
-    left: 10%;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +48,205 @@
         text-align: center;
     }
 }
+.para-text{
+    width: 500px;
+    // background-color: $red;
+    height: 460px;
+    margin-top: 15px;
+    i{
+        font-size: 23px;
+        padding: 0 15px;
+    }
+}
 
-// .about-all{
+.about-all{
+display: flex;
+}
+.pic-video{
+    position: relative;
+    img{
+        width: 500px;
+    }
+}
+.icone-play{
+    i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        font-size: 65px;
+        cursor: pointer;
+    }
+}
 
-// }
+// !media querry for large phone --------------------------------------------------
+
+@media (min-width : 375px) and (max-width : 426px) {
+    .para-2{
+        margin-top: 25px;
+        text-align: center;
+        color: $texto-grie;
+    }
+    .about-us{
+        h1{
+            font-family: amatic_font_not_bold;
+            font-size: 50px;
+            text-align: center;
+        }
+        span{
+            color: $red;
+        }
+    }
+    
+    .pic-about{
+        position: relative;
+        margin: 20px 0 0 0;
+        img{
+            width: 100%;
+            height: 450px;
+        }
+    }
+    .num-about{
+        position: absolute;
+        background-color: white;
+        width: 80%;
+        height: 140px;
+        top: 55%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        p{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+        h4{
+            color: $red;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+    .para-text{
+        width: 100%;
+        // background-color: $red;
+        height: auto;
+        margin-top: 15px;
+        padding: 18px;
+        i{
+            font-size: 23px;
+            padding: 0 15px;
+        }
+    }
+    
+    .about-all{
+    display: flex;
+    flex-direction: column;
+    }
+    .pic-video{
+        position: relative;
+        img{
+            width: 100%;
+        }
+    }
+    .icone-play{
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+            font-size: 65px;
+            cursor: pointer;
+        }
+    }
+}
+
+// !media querry for tablet ----------------------------------------------------
+@media (min-width : 767px) and (max-width : 1025px) {
+
+
+.para-2{
+    margin-top: 25px;
+    text-align: center;
+    color: $texto-grie;
+}
+.about-us{
+    h1{
+        font-family: amatic_font_not_bold;
+        font-size: 50px;
+        text-align: center;
+    }
+    span{
+        color: $red;
+    }
+}
+
+.pic-about{
+    position: relative;
+    margin: 20px 0 0 0;
+    padding: 15px;
+    img{
+        width: 100%;
+        height: 450px;
+    }
+}
+.num-about{
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    height: 140px;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    p{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    h4{
+        color: $red;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+.para-text{
+    width: 100%;
+    // background-color: $red;
+    height: auto;
+    margin-top: 15px;
+    padding: 22px;
+    i{
+        font-size: 23px;
+        padding: 0 15px;
+    }
+}
+
+.about-all{
+display: flex;
+flex-direction: column;
+}
+.pic-video{
+    position: relative;
+    img{
+        width: 100%;
+    }
+}
+.icone-play{
+    i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        font-size: 65px;
+        cursor: pointer;
+    }
+}
+}

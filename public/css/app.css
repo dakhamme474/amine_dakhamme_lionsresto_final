@@ -11341,7 +11341,7 @@ header {
   .section-1 {
     background-color: #eeeeee;
     width: 100%;
-    height: fit-content;
+    height: 900px;
   }
   .info-and-pic {
     align-items: center;
@@ -11402,14 +11402,14 @@ header {
   .picture img {
     width: 400px;
     padding: 0 7px;
-    margin: 100px 0 30px 0;
+    margin: 70px 0 30px 0;
   }
 }
 @media (min-width: 767px) and (max-width: 1025px) {
   .section-1 {
     background-color: #eeeeee;
     width: 100%;
-    height: fit-content;
+    height: 950px;
   }
   .info-and-pic {
     align-items: center;
@@ -11495,6 +11495,7 @@ header {
 }
 .pic-about img {
   width: 850px;
+  height: 742px;
 }
 
 .num-about {
@@ -11503,7 +11504,8 @@ header {
   width: 600px;
   height: 140px;
   top: 70%;
-  left: 10%;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11518,6 +11520,186 @@ header {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+}
+
+.para-text {
+  width: 500px;
+  height: 460px;
+  margin-top: 15px;
+}
+.para-text i {
+  font-size: 23px;
+  padding: 0 15px;
+}
+
+.about-all {
+  display: flex;
+}
+
+.pic-video {
+  position: relative;
+}
+.pic-video img {
+  width: 500px;
+}
+
+.icone-play i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 65px;
+  cursor: pointer;
+}
+
+@media (min-width: 375px) and (max-width: 426px) {
+  .para-2 {
+    margin-top: 25px;
+    text-align: center;
+    color: #42525f;
+  }
+  .about-us h1, .about-us .h1 {
+    font-family: amatic_font_not_bold;
+    font-size: 50px;
+    text-align: center;
+  }
+  .about-us span {
+    color: #cd1212;
+  }
+  .pic-about {
+    position: relative;
+    margin: 20px 0 0 0;
+  }
+  .pic-about img {
+    width: 100%;
+    height: 450px;
+  }
+  .num-about {
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    height: 140px;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .num-about p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .num-about h4, .num-about .h4 {
+    color: #cd1212;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .para-text {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    padding: 18px;
+  }
+  .para-text i {
+    font-size: 23px;
+    padding: 0 15px;
+  }
+  .about-all {
+    display: flex;
+    flex-direction: column;
+  }
+  .pic-video {
+    position: relative;
+  }
+  .pic-video img {
+    width: 100%;
+  }
+  .icone-play i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 767px) and (max-width: 1025px) {
+  .para-2 {
+    margin-top: 25px;
+    text-align: center;
+    color: #42525f;
+  }
+  .about-us h1, .about-us .h1 {
+    font-family: amatic_font_not_bold;
+    font-size: 50px;
+    text-align: center;
+  }
+  .about-us span {
+    color: #cd1212;
+  }
+  .pic-about {
+    position: relative;
+    margin: 20px 0 0 0;
+    padding: 15px;
+  }
+  .pic-about img {
+    width: 100%;
+    height: 450px;
+  }
+  .num-about {
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    height: 140px;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .num-about p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .num-about h4, .num-about .h4 {
+    color: #cd1212;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .para-text {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    padding: 22px;
+  }
+  .para-text i {
+    font-size: 23px;
+    padding: 0 15px;
+  }
+  .about-all {
+    display: flex;
+    flex-direction: column;
+  }
+  .pic-video {
+    position: relative;
+  }
+  .pic-video img {
+    width: 100%;
+  }
+  .icone-play i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    cursor: pointer;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
