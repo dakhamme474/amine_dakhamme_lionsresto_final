@@ -1,0 +1,227 @@
+.section-1{
+    background-color: $back-grey;
+    width: 100%;
+    height: fit-content;
+}
+.info-and-pic{
+    
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sect-1{
+height: 100%;
+display: flex;
+align-items: center;
+margin-left: 5%;
+}
+.enjoy{
+    h1{
+        font-family: amatic_font;
+        font-size: 60px;
+        font-weight: 400;
+    }
+}
+.paragraph-1{
+    width: 450px;
+    p{
+        color: $texto-grie;
+        margin-top: 20px;
+    }
+}
+.les-btn{
+    display: flex;
+    
+    gap: 20px;
+    
+    a{
+        background-color: $red;
+        text-decoration: none;
+        padding: 10px 40px;
+        color: white;
+        border-radius: 25px;
+    }
+}
+.icone-et-watch{
+    display: flex;
+    gap: 10px;
+    i{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        cursor: pointer;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+}
+.picture{
+    img{
+        width: 550px;
+        padding: 50px;
+    }
+}
+
+// !media querry for large phone-------------------------------
+
+@media (min-width : 375px) and (max-width : 426px) {
+    .section-1{
+        background-color: $back-grey;
+        width: 100%;
+        height: fit-content ;
+    }
+    .info-and-pic{
+        
+        align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sect-1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    }
+    .enjoy{
+        h1{
+            font-family: amatic_font;
+            font-size: 40px;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+    .paragraph-1{
+        width: 100%;
+        padding: 10px;
+        p{
+            color: $texto-grie;
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+    .les-btn{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        
+        a{
+            background-color: $red;
+            text-decoration: none;
+            padding: 10px 40px;
+            color: white;
+            border-radius: 25px;
+        }
+    }
+    .icone-et-watch{
+        display: flex;
+        gap: 10px;
+        i{
+            display: flex;
+            height: 100%;
+            align-items: center;
+            cursor: pointer;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+    }
+    .picture{
+        img{
+            width: 400px;
+            padding: 0 7px;
+            margin: 100px 0 30px 0;
+            
+        }
+    }
+ 
+}
+
+@media (min-width : 767px) and (max-width : 1025px) {
+    .section-1{
+        background-color: $back-grey;
+        width: 100%;
+        height: fit-content ;
+    }
+    .info-and-pic{
+        
+        align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sect-1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    }
+    .enjoy{
+        h1{
+            font-family: amatic_font;
+            font-size: 55px;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+    .paragraph-1{
+        width: 100%;
+        padding: 10px;
+        p{
+            color: $texto-grie;
+            margin-top: 20px;
+            text-align: center;
+            padding: 0 10px;
+        }
+    }
+    .les-btn{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        
+        a{
+            background-color: $red;
+            text-decoration: none;
+            padding: 10px 40px;
+            color: white;
+            border-radius: 25px;
+        }
+    }
+    .icone-et-watch{
+        display: flex;
+        gap: 10px;
+        i{
+            display: flex;
+            height: 100%;
+            align-items: center;
+            cursor: pointer;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+    }
+    .picture{
+        img{
+            width: 500px;
+            padding: 0 7px;
+            margin: 100px 0 30px 0;
+            
+        }
+    }
+  
+
+}
+

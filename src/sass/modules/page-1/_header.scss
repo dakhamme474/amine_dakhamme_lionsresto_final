@@ -35,13 +35,15 @@ header{
             a{
                 text-decoration: none;
                 color: $gray;
-                padding: 0 10px;
+                padding: 10px 10px;
                 font-size: 18px;
                 font-weight: 500;
-                transition: 0.4s;
+                
             }
             a:hover{
                 color: black;
+                border-bottom: 2px solid $red;
+                
             }
         }
     }
@@ -175,6 +177,7 @@ header{
                 }
                 a:hover{
                     color: black;
+                    
                 }
             }
         }
@@ -191,7 +194,6 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        
         a{
             text-decoration: none;
             background-color: $red;
