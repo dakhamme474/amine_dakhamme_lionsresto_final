@@ -11143,6 +11143,10 @@ header {
   border-radius: 25px;
 }
 
+.connexion a:hover {
+  background-color: rgba(205, 18, 18, 0.2274509804);
+}
+
 @media (min-width: 375px) and (max-width: 426px) {
   header {
     width: 100%;
@@ -11699,6 +11703,154 @@ header {
     transform: translate(-50%, -50%);
     font-size: 65px;
     cursor: pointer;
+  }
+}
+.section-3 {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 520px;
+  margin-top: 50px;
+}
+
+.all-cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+}
+.all-cards .first-card {
+  background-color: #cd1212;
+  width: 350px;
+  height: 400px;
+  padding: 28px;
+}
+.all-cards .first-card h1, .all-cards .first-card .h1 {
+  font-size: 35px;
+  color: white;
+}
+.all-cards .first-card p {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.all-cards .first-card .more {
+  display: flex;
+  justify-content: center;
+}
+.all-cards .first-card .more a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.479);
+  padding: 10px 27px;
+  border-radius: 25px;
+}
+
+.second-cards {
+  background-color: white;
+  width: 280px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second-cards .icone-statistique i {
+  font-size: 30px;
+  background-color: rgba(205, 18, 18, 0.2274509804);
+  padding: 12px;
+  border-radius: 50%;
+}
+.second-cards .info-title {
+  font-size: 22px;
+  text-align: center;
+}
+.second-cards .info-para {
+  color: #42525f;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.second-cards:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 375px) and (max-width: 426px) {
+  .section-3 {
+    background-color: #eeeeee;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .all-cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 42px;
+    padding: 28px;
+  }
+  .all-cards .first-card {
+    background-color: #cd1212;
+    width: 100%;
+    height: 400px;
+  }
+  .all-cards .first-card h1, .all-cards .first-card .h1 {
+    font-size: 35px;
+    color: white;
+  }
+  .all-cards .first-card p {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  .all-cards .first-card .more {
+    display: flex;
+    justify-content: center;
+  }
+  .all-cards .first-card .more a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 10px 27px;
+    border-radius: 25px;
+  }
+  .second-cards {
+    background-color: white;
+    width: 100%;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+  }
+  .second-cards .icone-statistique {
+    padding: 20px;
+  }
+  .second-cards .icone-statistique i {
+    font-size: 30px;
+    background-color: rgba(205, 18, 18, 0.2274509804);
+    padding: 12px;
+    border-radius: 50%;
+  }
+  .second-cards .info-title {
+    font-size: 22px;
+    text-align: center;
+  }
+  .second-cards .info-para {
+    color: #42525f;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .second-cards:hover {
+    transform: scale(1);
   }
 }
 
