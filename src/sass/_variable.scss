@@ -1,0 +1,15 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+//! mes variable couleur
+$red : #cd1212 ;
+$darken : #201f24 ;
+$gray : #9f9592 ;
+//! custom couleur nom pour moi 
+$custom-colors : (
+    "rouge" : $red ,
+    "noir" : $darken ,
+    "grie" : $gray ,
+);
+
+//! merg
+$theme-colors : map-merge($theme-colors , $custom-colors);
