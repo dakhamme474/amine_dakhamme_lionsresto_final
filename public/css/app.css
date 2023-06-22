@@ -12032,9 +12032,14 @@ header {
 
 .les-tabs {
   border-bottom: 2px solid #9f9592;
+  transition: 0.4s;
 }
 .les-tabs button {
   font-size: 25px;
+}
+
+.les-tabs:hover {
+  border-bottom: 2px solid #cd1212;
 }
 
 .all-listes {
@@ -12447,6 +12452,152 @@ textarea {
     text-decoration: none;
     color: white;
     cursor: pointer;
+  }
+}
+.section-9 {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 550px;
+}
+
+.xmaps {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+iframe {
+  width: 90%;
+  height: 350px;
+}
+
+.adress-parent {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 30px;
+}
+
+.kldm {
+  background-color: #eeeeee;
+  width: 670px;
+  height: 140px;
+  display: flex;
+  padding: 35px;
+  align-items: center;
+  gap: 20px;
+}
+.kldm .b-gicone i {
+  background-color: #cd1212;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 15px;
+}
+.kldm h4, .kldm .h4 {
+  padding-top: 10px;
+  color: #42525f;
+  font-weight: 700;
+}
+.kldm p {
+  color: #42525f;
+  font-weight: 400;
+}
+
+@media (min-width: 767px) and (max-width: 1025px) {
+  .section-9 {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 550px;
+  }
+  .xmaps {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+  }
+  iframe {
+    width: 90%;
+    height: 350px;
+  }
+  .adress-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+  }
+  .kldm {
+    background-color: #eeeeee;
+    width: 44%;
+    height: 140px;
+    display: flex;
+    padding: 35px;
+    align-items: center;
+    gap: 20px;
+  }
+  .kldm .b-gicone i {
+    background-color: #cd1212;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 15px;
+  }
+  .kldm h4, .kldm .h4 {
+    padding-top: 10px;
+    color: #42525f;
+    font-weight: 700;
+  }
+  .kldm p {
+    color: #42525f;
+    font-weight: 400;
+  }
+}
+@media (min-width: 375px) and (max-width: 426px) {
+  .section-9 {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 550px;
+  }
+  .xmaps {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+  }
+  iframe {
+    width: 100%;
+    height: 350px;
+    padding: 15px;
+  }
+  .adress-parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 30px;
+    width: 100%;
+    padding: 15px;
+  }
+  .kldm {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    padding: 35px;
+    align-items: center;
+    gap: 20px;
+  }
+  .kldm .b-gicone i {
+    background-color: #cd1212;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 15px;
+  }
+  .kldm h4, .kldm .h4 {
+    padding-top: 10px;
+    color: #42525f;
+    font-weight: 700;
+  }
+  .kldm p {
+    color: #42525f;
+    font-weight: 400;
   }
 }
 

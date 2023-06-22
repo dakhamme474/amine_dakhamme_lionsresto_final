@@ -5,10 +5,15 @@
 }
 .les-tabs{
     border-bottom: 2px solid $gray;
+    transition: 0.4s;
     button{
         font-size: 25px;
     }
     
+}
+.les-tabs:hover{
+    border-bottom: 2px solid $red;
+   
 }
 
 .all-listes{
