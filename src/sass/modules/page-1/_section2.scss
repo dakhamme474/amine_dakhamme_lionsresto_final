@@ -85,11 +85,12 @@ display: flex;
         margin-top: 25px;
         text-align: center;
         color: $texto-grie;
+        
     }
     .about-us{
         h1{
-            font-family: amatic_font_not_bold;
-            font-size: 50px;
+            font-family: amatic_font;
+            font-size: 38px;
             text-align: center;
         }
         span{
@@ -174,7 +175,7 @@ display: flex;
 }
 .about-us{
     h1{
-        font-family: amatic_font_not_bold;
+        font-family: amatic_font;
         font-size: 50px;
         text-align: center;
     }
