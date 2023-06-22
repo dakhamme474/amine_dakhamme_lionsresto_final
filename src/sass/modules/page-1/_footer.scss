@@ -57,15 +57,17 @@ footer{
         margin-top: 100px;
         background-color: $xfooter;
         width: 100%;
-        height: 350px;
+        height: auto;
     }
     .info-footer{
         padding-top: 45px;
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
     
     .address-footer{
+        padding: 25px;
         .icone-address{
             display: flex;
             i{
@@ -103,5 +105,67 @@ footer{
             padding-top: 50px;
             font-size: 18px;
             font-weight: 350;
+            padding-bottom: 50px;
+    }
+}
+
+// !media querry for large phone --------------------------------------------------
+
+@media (min-width : 375px) and (max-width : 426px) {
+    footer{
+        margin-top: 100px;
+        background-color: $xfooter;
+        width: 100%;
+        height: auto;
+    }
+    .info-footer{
+        padding-top: 45px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .address-footer{
+        padding-left: 20px;
+        .icone-address{
+            display: flex;
+            i{
+            font-size: 28px;
+        }
+        h1{
+            color: white;
+            padding-left: 15px;
+            font-size: 30px;
+            font-weight: 600;
+            padding-bottom: 20px;
+        }
+        }
+        p{
+            font-size: 20px;
+            color: $gray;
+            padding-left: 35px;
+            margin: 0;
+        }
+        
+    }
+    .icone-follow{
+        display: flex;
+        gap: 20px;
+        
+        i{
+            font-size: 22px;
+            padding: 12px;
+            border: 1px solid white;
+            border-radius: 50%;
+        }
+    }
+    .copy-r{
+            text-align: center;
+            color: white;
+            padding-top: 50px;
+            font-size: 18px;
+            font-weight: 350;
+            padding-bottom: 50px;
     }
 }
