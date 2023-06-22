@@ -1,0 +1,52 @@
+.formsx{
+    background-color: $back-grey;
+    width: 90%;
+    height: 595px;
+    margin: 50px auto;
+    display: flex;
+    gap: 30px;
+    
+}
+.reservation{
+    img{
+        width: 450px;
+    }
+}
+.reserv-inpustes{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.place-input{
+    
+    display: flex;
+    gap: 20px;
+    input{
+width: 270px;
+height: 48px;
+border: 1px solid $gray;
+outline: none;
+margin: 12px 0;
+    }
+}
+textarea{
+    width: 850px;
+    border: 1px solid $gray;
+outline: none;
+
+}
+.book-a-table{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    a{
+        background-color: $red;
+        padding: 15px 25px;
+        border-radius: 25px;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+
+    }
+}
