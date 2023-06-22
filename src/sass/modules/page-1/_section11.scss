@@ -1,0 +1,141 @@
+.section-11 {
+    margin-top: 80px;
+
+}
+
+.contact-uss {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    input {
+        width: 675px;
+        height: 45px;
+        outline: none;
+        border: 1px solid $gray;
+    }
+}
+
+.subject {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+
+    input {
+        width: 1375px;
+        height: 45px;
+    }
+}
+
+.txt-msg {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+
+    textarea {
+        width: 1375px;
+    }
+}
+
+// !media querry for tablet -----------------------------------------
+
+@media (min-width : 767px) and (max-width : 1025px) {
+    .section-11 {
+        margin-top: 80px;
+
+    }
+
+    .contact-uss {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+        .name-email{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            input {
+            width: 89%;
+            height: 45px;
+            outline: none;
+            border: 1px solid $gray;
+        }
+        }
+        
+    }
+
+    .subject {
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        width: 100%;
+        input {
+            width: 89%;
+            height: 45px;
+        }
+    }
+
+    .txt-msg {
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        textarea {
+            width: 1375px;
+            width: 89%;
+        }
+    }
+}
+// !media querry for large phone ---------------------------------------------------------
+
+@media (min-width : 375px) and (max-width : 426px) {
+    .section-11 {
+        margin-top: 80px;
+
+    }
+
+    .contact-uss {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+        .name-email{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            input {
+            width: 89%;
+            height: 45px;
+            outline: none;
+            border: 1px solid $gray;
+        }
+        }
+        
+    }
+
+    .subject {
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        width: 100%;
+        input {
+            width: 89%;
+            height: 45px;
+        }
+    }
+
+    .txt-msg {
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        textarea {
+            width: 1375px;
+            width: 89%;
+        }
+    }
+}
