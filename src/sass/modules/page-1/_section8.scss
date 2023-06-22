@@ -50,3 +50,128 @@ outline: none;
 
     }
 }
+
+// !media querry for tablet --------------------------------------
+
+@media (min-width : 767px) and (max-width : 1025px) {
+    .formsx{
+        background-color: $back-grey;
+        width: 90%;
+        height: auto;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .reservation{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .reserv-inpustes{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .place-input{
+        
+        display: flex;
+        gap: 20px;
+        padding: 0 30px;
+        input{
+    width: 270px;
+    height: 48px;
+    border: 1px solid $gray;
+    outline: none;
+    margin: 12px 0;
+        }
+    }
+    textarea{
+        width: 630px;
+        border: 1px solid $gray;
+    outline: none;
+    
+    }
+    .book-a-table{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+        a{
+            background-color: $red;
+            padding: 15px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+    
+        }
+    }
+}
+
+// !media querry for large phone ----------------------------------------
+
+@media (min-width : 375px) and (max-width : 426px) {
+    .formsx{
+        background-color: $back-grey;
+        width: 90%;
+        height: auto;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .reservation{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .reserv-inpustes{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .place-input{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        input{
+    width: 310px;
+    height: 48px;
+    border: 1px solid $gray;
+    outline: none;
+    margin: 0 0 12px 0;
+        }
+    }
+
+    textarea{
+        width: 310px;
+        border: 1px solid $gray;
+    outline: none;
+    
+    }
+    .book-a-table{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        a{
+            background-color: $red;
+            padding: 15px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+    
+        }
+    }
+}
