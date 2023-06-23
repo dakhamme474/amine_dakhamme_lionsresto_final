@@ -16,12 +16,12 @@
         <div class="logo"><a href="">LionsResto<span>.</span></a></div>
         <div class="information">
             <ul class="nav-info">
-                <li> <a href="">Home</a> </li>
-                <li> <a href="">About</a> </li>
-                <li> <a href="">Menu</a> </li>
-                <li> <a href="">Events</a> </li>
-                <li> <a href="">Chefs</a> </li>
-                <li> <a href="">Gallery</a> </li>
+                <li> <a href="#home">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#menu">Menu</a> </li>
+                <li> <a href="#events">Events</a> </li>
+                <li> <a href="#chefs">Chefs</a> </li>
+                <li> <a href="#gallery">Gallery</a> </li>
                 <li>
                     <div class="dropdown">
                         <button class="btn  dropdown-toggle xdropdown text-grie" type="button" data-bs-toggle="dropdown"
@@ -35,7 +35,7 @@
                         </ul>
                     </div>
                 </li>
-                <li> <a href="">Contact</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
             </ul>
             <button class="menu-burger">
                 <span></span>
@@ -48,7 +48,7 @@
     <span class="up"><i class="fa-solid fa-circle-up fa-2xl" style="color: #cd1212;"></i></span>
     <!-- -----------------------------------!end header ------------------------------- -->
     <!-- -----------------------------------*start section 1 ------------------------------- -->
-    <section class="section-1">
+    <section class="section-1" id="home">
         <div class="sect-1">
 
             <div class="info-and-pic">
@@ -61,13 +61,26 @@
                             esse nostrum repellendus.</p>
                     </div>
                     <div class="les-btn"> <a href="">book a table</a>
-                        <div class="icone-et-watch"><i class="fa-regular fa-circle-play fa-2xl"
-                                style="color: #cd1212"></i>
+                        <div class="icone-et-watch"><i class="fa-regular fa-circle-play fa-2xl" style="color: #cd1212"
+                                onclick="openPopup()"></i>
                             <p> Watch Video</p>
                         </div>
                     </div>
+                    <!-- !!!!!!!!!!!!!! -->
+                    <div class="popup-overlay" id="popupOverlay">
+                        <div class="popup-content">
+                            <button class="close-button" onclick="closePopup()">&times;</button>
+                            <iframe  src="https://www.youtube.com/embed/LXb3EKWsInQ"
+                                title="COSTA RICA IN 4K 60fps HDR (ULTRA HD)" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    
+
+                    <!-- !!!!!!!!!!!!!!!!!! -->
                 </div>
-                
+
                 <div class="picture">
                     <img src="./public/img/hero-img.png" alt="">
                 </div>
@@ -77,7 +90,7 @@
     <!-- -----------------------------------!end section 1 ------------------------------- -->
     <!-- -----------------------------------*start section 2 ------------------------------- -->
 
-    <section class="section-2">
+    <section class="section-2" id="about">
         <p class="para-2">ABOUT US</p>
         <div class="about-us">
             <h1>LEARN MORE <span>ABOUT US</span></h1>
@@ -109,8 +122,21 @@
                     possimus vel perferendis voluptas repudiaa modi veritatis itaque hic aliquam aspernatur eum,
                     cupiditate explicabo eveniet dolor.</p>
                 <div class="pic-video"><img src="./public/img/about-2.jpg" alt="">
-                    <div class="icone-play"><i class="fa-solid fa-circle-play fa-2xl" style="color: #cd1212"></i></div>
+                    <div class="icone-play"><i class="fa-solid fa-circle-play fa-2xl" style="color: #cd1212" onclick="openPopup()"></i></div>
                 </div>
+                                    <!-- !!!!!!!!!!!!!! -->
+                                    <div class="popup-overlay" id="popupOverlay">
+                                        <div class="popup-content">
+                                            <button class="close-button" onclick="closePopup()">&times;</button>
+                                            <iframe  src="https://www.youtube.com/embed/LXb3EKWsInQ"
+                                                title="COSTA RICA IN 4K 60fps HDR (ULTRA HD)" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    
+                
+                                    <!-- !!!!!!!!!!!!!!!!!! -->
             </div>
 
 
@@ -177,7 +203,7 @@
     <!-- -----------------------------------!end section 4 ------------------------------- -->
     <!-- -----------------------------------*start section 5 ------------------------------- -->
 
-    <section class="section5">
+    <section class="section5" id="menu">
         <p class="para-2">OUR MENU</p>
         <div class="about-us">
             <h1>CHECK OUR <span>LIONSRESTO MENU</span></h1>
@@ -410,16 +436,43 @@
     </section>
     <!-- -----------------------------------!end section 5 ------------------------------- -->
     <!-- -----------------------------------*start section 6 ------------------------------- -->
-    <section class="section-6">
+    <section class="section-6" id="events">
         <p class="para-2">EVENTS</p>
         <div class="about-us">
             <h1>SHARE <span>LIONSRESTO MENU</span> IN OUR RESTAURANT</h1>
         </div>
         <!--^  we need modal here -->
+        <div class="carousell-pic">
+            <div class="position-pic"><img src="./public/img/events-1.jpg" alt="">
+                <div class="info-carrou">
+                    <h1>Custom Parties</h1>
+                    <h2>$99</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati reprehenderit dolore
+                        mollitia dolorum pariatur Lorem ipsum dolor sit.!</p>
+                </div>
+            </div>
+            <div class="position-pic"><img src="./public/img/events-2.jpg" alt="">
+                <div class="info-carrou">
+                    <h1>Private Parties</h1>
+                    <h2>$289</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati reprehenderit dolore
+                        mollitia dolorum pariatur Lorem ipsum dolor sit.!</p>
+                </div>
+            </div>
+            <div class="position-pic"><img src="./public/img/events-3.jpg" alt="">
+                <div class="info-carrou">
+                    <h1>Birthay Parties</h1>
+                    <h2>$499</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati reprehenderit dolore
+                        mollitia dolorum pariatur Lorem ipsum dolor sit.!</p>
+                </div>
+            </div>
+
+        </div>
     </section>
     <!-- -----------------------------------!end section 6 ------------------------------- -->
     <!-- -----------------------------------*START section 7 ------------------------------- -->
-    <section class="section-7">
+    <section class="section-7" id="chefs">
         <div class="move-chef">
             <p class="para-2">CHEFS</p>
             <div class="about-us">
@@ -498,7 +551,7 @@
     </section>
     <!-- -----------------------------------!end section 8 ------------------------------- -->
     <!-- -----------------------------------*START section 9 ------------------------------- -->
-    <section class="section-9">
+    <section class="section-9" id="gallery">
         <div class="move-chef">
             <p class="para-2">GALLERY</p>
             <div class="about-us">
@@ -509,7 +562,7 @@
     </section>
     <!-- -----------------------------------!end section 9 ------------------------------- -->
     <!-- -----------------------------------*start section 10 ------------------------------- -->
-    <section class="section-10">
+    <section class="section-10" id="contact">
         <div class="move-chef">
             <p class="para-2">CONTACT</p>
             <div class="about-us">
