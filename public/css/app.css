@@ -11147,12 +11147,17 @@ header {
   background-color: rgba(205, 18, 18, 0.2274509804);
 }
 
+.menu-burger {
+  display: none;
+}
+
 @media (min-width: 375px) and (max-width: 426px) {
   header {
     width: 100%;
     height: 85px;
     display: flex;
     justify-content: space-between;
+    position: relative;
   }
   .logo {
     width: 100%;
@@ -11200,6 +11205,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 17px;
   }
   .connexion a {
     text-decoration: none;
@@ -11208,6 +11214,45 @@ header {
     padding: 8px 23px;
     border-radius: 25px;
   }
+  .menu-burger {
+    background: none;
+    border: none;
+    width: 40px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .menu-burger span {
+    display: block;
+    background-color: black;
+    height: 4px;
+    margin-bottom: 4px;
+    transition: 0.4s;
+    border-radius: 3px;
+  }
+  .information .open-menu {
+    padding: 20px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .information .open-menu {
+    margin-top: 20px;
+  }
+  .information .open-menu li {
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.833);
+    margin-right: 20px;
+    padding: 20px;
+  }
+  .information .open-menu li a {
+    color: black;
+  }
 }
 @media (min-width: 767px) and (max-width: 1025px) {
   header {
@@ -11215,6 +11260,7 @@ header {
     height: 85px;
     display: flex;
     justify-content: space-between;
+    position: relative;
   }
   .logo {
     width: 40%;
@@ -11270,6 +11316,45 @@ header {
     color: white;
     padding: 8px 23px;
     border-radius: 25px;
+  }
+  .menu-burger {
+    background: none;
+    border: none;
+    width: 40px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .menu-burger span {
+    display: block;
+    background-color: black;
+    height: 4px;
+    margin-bottom: 4px;
+    transition: 0.4s;
+    border-radius: 3px;
+  }
+  .information .open-menu {
+    padding: 20px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .information .open-menu {
+    margin-top: 0;
+  }
+  .information .open-menu li {
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.833);
+    margin-right: 20px;
+    padding: 20px;
+  }
+  .information .open-menu li a {
+    color: black;
   }
 }
 .section-1 {
@@ -12768,7 +12853,7 @@ footer {
 .copy-r {
   text-align: center;
   color: white;
-  padding-top: 50px;
+  padding-top: 100px;
   font-size: 18px;
   font-weight: 350;
 }
