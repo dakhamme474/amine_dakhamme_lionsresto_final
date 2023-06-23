@@ -11082,6 +11082,10 @@ header {
   height: 85px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 30;
+  background-color: white;
 }
 
 .logo {
@@ -11158,6 +11162,9 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 30;
   }
   .logo {
     width: 100%;
@@ -11261,6 +11268,9 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 30;
   }
   .logo {
     width: 40%;
@@ -11361,6 +11371,7 @@ header {
   background-color: #eeeeee;
   width: 100%;
   height: fit-content;
+  margin-top: 55px;
 }
 
 .info-and-pic {
@@ -11424,6 +11435,22 @@ header {
 .picture img {
   width: 550px;
   padding: 50px;
+}
+
+.up {
+  position: fixed;
+  bottom: 30px;
+  right: -80px;
+  transition: 0.3s;
+}
+.up i {
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.up.show {
+  right: 10px;
+  z-index: 10;
 }
 
 @media (min-width: 375px) and (max-width: 426px) {
